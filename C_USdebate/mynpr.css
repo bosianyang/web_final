@@ -1,0 +1,55 @@
+.soundbite{
+    display: none;
+}
+
+.annotation{
+    background-color: #eeeeee;
+    margin-left: 100px;
+    color: #bbbbbb;
+}
+
+
+.annotation img{
+    display: none;
+}
+
+
+.fact-checked{
+/*
+    text-decoration: underline;
+    background-color:yellow;
+*/
+    text-decoration: none;
+    border-bottom: 5px solid yellow;
+}
+
+.speaker{
+    font-size: 150%;
+    display: block;
+}
+
+.dem{
+    color: cornflowerblue;
+    background-color: aliceblue;
+}
+
+.gop{
+    color: red;
+    background-color: lightpink;
+}
+
+.dem + p{
+    background-color: aliceblue;
+}
+
+.gop + p{
+    background-color: lightpink;
+}
+
+p{
+    margin-left: 100px;
+}
+
+div.annotation p{
+    margin-left: 0px;
+}

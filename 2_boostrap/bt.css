@@ -1,0 +1,239 @@
+.jumbotron {
+    background: #000 url("http://a.abcnews.com/images/Politics/GTY_donald_trump_hillary_clinton_sk_150619_16x9_992.jpg");
+    background-position: center;
+    font-family: Lucida Console, sans-serif;
+    width: auto;
+    height: 400px;
+    background-size: cover;
+    overflow: hidden;
+    margin-bottom: 0px;
+}
+
+.enjoy-css {
+    color: #777;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    cursor: pointer;
+    border: none;
+    font: normal 72px/normal "Passero One", Helvetica, sans-serif;
+    color: #777;
+    text-align: center;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 1), 0 2px 0 rgba(255, 255, 255, 1), 0 3px 0 rgba(255, 255, 255, 1), 0 4px 0 rgba(255, 255, 255, 1), 0 5px 0 rgba(255, 255, 255, 1), 0 6px 1px rgba(0, 0, 0, 0.0980392), 0 0 5px rgba(0, 0, 0, 0.0980392), 0 1px 3px rgba(0, 0, 0, 0.298039), 0 3px 5px rgba(0, 0, 0, 0.2), 0 -5px 10px rgba(0, 0, 0, 0.247059), 0 -7px 10px rgba(0, 0, 0, 0.2), 0 -15px 20px rgba(0, 0, 0, 0.14902);
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+}
+
+.c1 {
+    color: deepskyblue;
+}
+
+.c2 {
+    color: greenyellow;
+}
+
+.c3 {
+    color: darkorange;
+}
+
+.c4 {
+    color: deeppink;
+}
+
+.enjoy-css:hover {
+    text-shadow: 0 1px 10px rgb(204, 204, 204), 0 2px 0 rgb(201, 201, 201), 0 3px 0 rgb(187, 187, 187), 0 4px 0 rgb(185, 185, 185), 0 5px 0 rgb(170, 170, 170), 0 6px 1px rgba(0, 0, 0, 0.0980392), 0 0 5px rgba(0, 0, 0, 0.0980392), 0 1px 3px rgba(0, 0, 0, 0.298039), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.247059), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.14902);
+    -webkit-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+
+h2 {
+    color: dodgerblue;
+}
+
+dd {
+    color:lightgray;
+
+
+}
+
+dt {
+    color: darkgray;
+    font-weight: bold;
+}
+
+#projects .row .row {
+    border-top: 1px solid #ccc;
+}
+
+#projects h4 {
+    color: royalblue;
+}
+
+#projects .thumbnail {
+    margin-top: 5px;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 9999;
+    border: 0;
+    font-size: 20px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 2px;
+    border-radius: 0;
+    font-family: "Passero One", Montserrat, sans-serif;
+}
+
+.navbar li a,
+.navbar .navbar-brand {
+    color: deepskyblue!important;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
+    color: white !important;
+    background-color: #333 !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+
+/*
+#background {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover;
+}
+*/
+footer {
+    background-color: #2d2d30;
+    color: #f5f5f5;
+    padding-top: 20px;
+    margin-top: 100px;
+}
+
+footer p {
+    font: normal 30px/normal "Passero One", Helvetica, sans-serif;
+}
+
+
+/*
+.row .col-sm-9 {
+    background-color: rgba(255, 255, 255, 0.9);
+}*/
+
+
+#gallery2 img {
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1);
+    /* Google Chrome, Safari 6+ & Opera 15+ */
+    -webkit-box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.75);
+    margin-bottom: 20px;
+
+}
+
+#gallery2 img:hover {
+    filter: none; 
+    -webkit-filter: grayscale(0);
+}
+
+.thumb {
+    margin-bottom: 30px;
+}
+
+.modal-dialog {
+    width:600px;
+    margin-top: 100px;
+}
+.modalthumb {margin-bottom:6px;}
+
+#parallax1{
+    /* The image used */
+    margin-top: 0px;
+    background-image: url("https://www.elastica.net/wp-content/uploads/2014/03/2014-03-DataScienceA-1480x760.jpg");
+
+    /* Set a specific height */
+    min-height: 200px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#myVideo{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top:0;
+    right:0;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-color: black; /* in case the video doesn't fit the whole page*/
+    background-image: /* our video */;
+    background-position: center center;
+    background-size: contain;
+    object-fit: cover; /*cover video background */
+    z-index:-3;
+}
+
+body > div.container{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+    margin-top: -40px;
+
+}
+.thumbnail{
+    border: 0px;
+}
+
+div#publications > p, div.flip > p:first-child{
+    background-color: #f8f8f8;
+    padding: 5px;
+    margin-top: 10px;
+/*    box-shadow: 0px 1px 0px royalblue;*/
+    display: block;
+/*    color: royalblue;*/
+    
+}
+div#publications > p:hover{
+    color: white;
+    background-color: darkgray;
+/*    box-shadow: 0px 2px 0px royalblue;*/
+    
+}
+
+div.flip p.description{
+    display: none;
+}
+
+
+
+
+
+

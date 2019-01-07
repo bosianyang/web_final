@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 
+        "Lucida Grande",
+        Helvetica,
+        "Helvetica Neue",
+        "HelveticaNeue-Light",
+        "Helvetica Neue Light",
+        Arial,
+        sans-serif;
+    font-size: 90%;
+}
+
+/*
+#wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+*/
+
+#banner {
+    width: 1000px;
+    height: 100px;
+    background-color: coral;
+    clear:both;
+    position:fixed;
+}
+
+#content {
+    width: 600px;
+    background-color:azure;
+    float:left;
+}
+
+#footer {
+    width: 100px;
+    height: 50px;
+    background-color:darkgoldenrod;
+    clear:both;
+}
+
+#supporting {
+    width: 150px;
+    height: 150px;
+    background-color:aliceblue;
+    float:left;
+}
+
+/*
+#content, #nav, #supporting{
+    margin-top: 100px;
+}
+*/
+/*
+#content{
+    margin-left: 150px;
+}
+*/
+
+/*
+#wrapper {
+    width: 800px;
+    margin: 0 auto;
+}
+.container {
+    padding: 10px;
+}
+
+.item{
+    padding-top: 100px;
+    margin-top: -100px;
+}
+*/
+#nav {
+    width: 150px;
+    position:fixed;
+    margin-top: 100px;
+}
+/*
+#nav ul {
+    margin: 0px;
+    padding: 0px;
+}
+#nav li{
+    display:block;
+    background-color:darkorange;
+    margin-top: 5px;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 1px 1px 2px gray;
+}
+#nav li:hover{
+    background-color:green;
+    box-shadow: 2px 2px 4px gray;
+}
+#nav li a{
+    color: white;
+    text-decoration: none;
+
+
+}
+
+
+*/
+
+.adjust-left{
+    float:left;
+    margin-bottom: 0px;
+    padding: 5px
+}
+.adjust-right{
+    float:right;
+    margin-bottom: 0px;
+    padding: 5px
+}
+div#banner li{
+    display:inline;
+    font-size: 70%;
+}
+div#banner li a:link,
+div#banner li a:visited{
+    color: #333;
+}
+div#banner li a:hover{
+    color: white;
+}
+/*
+.clear{
+    clear:both;
+}
+*/
+#banner h1{
+    margin-top: 10px;
+}
+#banner ul{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+table{
+    width: 100%;
+    border-spacing: 1px;
+}
+table, th, td{
+    border: 1px solid darkorange;
+    padding: 5px;
+}
+td:hover{
+    background-color: darkorange;
+    color: white;
+}
+
+
+div.img {
+    margin: 5px;
+    padding: 5px;
+/*    border: 1px solid gray;*/
+    height: auto;
+    width: auto;  
+    float: left;
+    text-align: center;
+}
+
+div.img img {
+    display: inline;
+    margin: 5px;
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+/*    transform: translate(-50%, -50%);*/
+    border: 1px solid #ffffff;
+    object-fit: cover;
+}
+
+div.img a:hover img {
+    border:1px solid darkgray;
+}
+
+div.img a {
+    text-decoration: none;
+}
+

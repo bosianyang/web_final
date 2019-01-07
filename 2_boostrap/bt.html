@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Passero+One" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Rancho&effect=3d-float|3d">
+    <link rel="stylesheet" href="bt.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="jquery.easing.1.3.js"></script>
+    <script src="bt.js"></script>
+</head>
+
+
+
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#myPage">Logo</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#about">About</a></li>
+                <li><a href="#members">Members</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#publications">Publications</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="jumbotron text-center">
+        <h2 class="enjoy-css">
+            <span class="c1">Data</span>
+            <span class="c3">practice</span>
+            <span class="c2">team</span><br>
+            <span class="c4">@ </span>
+            <span class="c2">ntu </span>
+            <span class="c1">journalism</span>
+        </h2>
+    </div>
+    <div id="about" class="container">
+        <h2>About us</h2>
+        <dl>
+            <dt>We gather researchers and students who are interested in data analyis applications on "X" media and communication.</dt>
+            <dd>We come from different departments and invite any researchers who are interested in topics we concern.</dd>
+        </dl>
+    </div>
+    <div id="parallax1" class="container"></div>
+    <div id="members" class="container">
+        <h2>Members</h2>
+        <p>We come from different departments and invite any researchers who are interested in topics we concern.</p>
+        <div class="row">
+            <div class="col-sm-6">
+                <h4>Faculty</h4>
+                <dl>
+                    <dt>Yu, Chen-Yi, Sociology, Sinica</dt>
+                    <dd>Information Sociology, Gender, Narrative</dd>
+                    <dt id="people-sun">Sun, Chuen-Tsai, Computer Science, NCTU</dt>
+                    <dd>Artificial Intellignece, e-learning</dd>
+                    <dt>Yang, Li-Wei, IM, NTU</dt>
+                    <dd>News surveillance, Knowledge organization</dd>
+                    <dt>Wen, Tsai-Hung, Geopraphy, NTU</dt>
+                    <dd>GIS, CardoDB, Social simulation</dd>
+                    <dt>Tsai, Chia-Hung, Politics, NCCU</dt>
+                    <dd>Election, Quantitative method</dd>
+                </dl>
+            </div>
+            <div class="col-sm-6">
+                <h4>Student members</h4>
+            </div>
+        </div>
+    </div>
+    <!--
+    <div id="parallax1" class="container-fluid">
+        <video autoplay loop muted controls="false" id="myVideo">
+            <source src="assets/snoopy.mp4" type="video/mp4">
+        </video>
+    </div>
+-->
+
+    <div id="projects" class="container">
+        <h2>Projects</h2>
+        <p>Here are current projects</p>
+        <div class="row well well-sm">
+            <div class="col-sm-4">
+                <a class="thumbnail" href="assets/p1.png" target="_blank">
+                    <img src="assets/p1.png" alt="crisis">
+                </a>
+            </div>
+            <div class="col-sm-8">
+                <h4>Social sening and open panels</h4>
+                <dl>
+                    <dt>Cooperating with</dt>
+                    <dd>Yang, Li-Wei, IM NTU</dd>
+                    <dd>Sun, Chuen-Tsai, CS NCTU</dd>
+                    <dd>Lin, Holin, Sociology NTU</dd>
+                </dl>
+                <p>Social sening and open panels</p>
+            </div>
+        </div>
+        <div class="row well well-sm">
+            <div class="col-sm-4">
+                <a class="thumbnail" href="assets/p2.png" target="_blank">
+                    <img src="assets/p2.png" alt="lifelogging">
+                </a>
+            </div>
+            <div class="col-sm-8">
+                <h4>Quantified-self by mobile phone: daily routine</h4>
+                <dl>
+                    <dt>Cooperating with</dt>
+                    <dd>Chen-Yi Yu, Sociology Sinica</dd>
+                </dl>
+                <p>The use of social media has become the main reason for using information and communication technologies (ICTs, including cell phones, personal computers, and laptops). The study attempts to investigate whether the use of social media is a rational and conscious behavior, or just a passive response triggered by the rhythm of social media and the force of social expectations.</p>
+            </div>
+        </div>
+        <div class="row well well-sm">
+            <div class="col-sm-4">
+                <a class="thumbnail" href="assets/p3.png" target="_blank">
+                    <img src="assets/p3.png" alt="election">
+                </a>
+            </div>
+            <div class="col-sm-8">
+                <h4>Election, Politics, and Social media</h4>
+                <dl>
+                    <dt>Cooperating with</dt>
+                    <dd>Tsai, Jia-Hung, Politics NCCU</dd>
+                </dl>
+                <p>Social sening and open panels</p>
+            </div>
+        </div>
+        <div class="row well well-sm">
+            <div class="col-sm-4">
+                <a class="thumbnail" href="assets/p4.png" target="_blank">
+                    <img src="assets/p4.png" alt="map reading">
+                </a>
+            </div>
+            <div class="col-sm-8">
+                <h4>Eyetracking: Online news and e-maps</h4>
+                <dl>
+                    <dt>Cooperating with</dt>
+                    <dd>Wen, Tsai-Hung, Geography NTU</dd>
+                </dl>
+
+                <p>Eyetracking: Online news and e-maps</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h2>Funded projects</h2>
+        <table class="table table-striped table-hover">
+            <thead>
+                <tr>
+                    <th>Years</th>
+                    <th>Project name</th>
+                    <th>Roles</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2016-2019</td>
+                    <td>Developing Upper Primary students’ writing abilities through gamification, inquiry learning, and digital literacies</td>
+                    <td>co-PI</td>
+                </tr>
+                <tr>
+                    <td>2013-2016</td>
+                    <td>國高中生閱讀理解網際網路提供的各類圖文及相關問題解決: 學習動機 、線上-離線認知歷程及注視驅動鷹架-子計畫六:以眼動儀探究空間認知對電子地圖 判讀策略與尋路成效的影響</td>
+                    <td>PI</td>
+                </tr>
+                <tr>
+                    <td>2011-2013</td>
+                    <td>從WEB 2.0到WEB 3.0：資訊科技對學習動機、歷程與評量的影響－子計畫六:以標籤機制組織學習資源之使用性與教學方法探究</td>
+                    <td>PI</td>
+                </tr>
+
+            </tbody>
+        </table>
+
+    </div>
+    <div id="parallax2"></div>
+
+
+
+    <!--Publication section-->
+    <div id="publications" class="container">
+        <h2>Publications</h2>
+        <p data-toggle="collapse" data-target="#paper0">Yu C.Y and Hsieh J.L. (Accepted) Lifelogging: Recording Life Patterns Tied to Daily Internet Usage. To appear in International Handbook of Internet Research (Vol. 2), Springer.</p>
+        <div id="paper0" class="collapse">該專書章節回顧了心理學早期的經驗取樣方法，乃至於近年因為智慧型手機技術的快速發展，得以建立以行動技術為基礎的經驗取樣方法，除便於取樣外，甚至可根據參與者的生活脈絡與規律進行抽樣。除此之外，本章節並介紹了行動追蹤相關技術，探究自動記錄手機的使用歷程，如何作為分析個人生活規律與社交媒介使用規律的工具。然而，利用手機資料必然涉及隱私與倫理問題，在本章亦利用最後一節說明美國MIT、Harvard與白宮針對資料搜集的隱私與倫理問題所提出的六大綱要，並以本研究的實施過程為例，一一說明本研究如何處理該六大綱要。</div>
+        <p data-toggle="collapse" data-target="#paper1">余貞誼、謝吉隆（2014）。跟著它一起呼吸─使用社群網站的生活韻律分析。2014年文化研究學會年會。臺北，台灣。</p>
+        <div id="paper1" class="collapse">本篇論文為應用時間日誌法（Time-Diary method）、視覺化方法以及質性詮釋來探究一對父母的生活脈絡如何影響其手機使用，並探究手機使用又如何反應其生活脈絡中的節奏韻律。除了使用日誌法外，尚擷取Chrome瀏覽器的瀏覽歷史紀錄與日誌資料相互印證。
+        </div>
+        <p data-toggle="collapse" data-target="#paper2">Hsieh, J. L. (31-Aug-2015 Accepted) Author Publication Preferences and Journal Competition. Journal of the Association for Information Science and Technology. (SSCI, 2013 Rank: 9/84 in Information Science and Library</p>
+        <div id="paper2" class="collapse">本篇論文以組織生態利基為理論背景，量化作者集中投稿至某些期刊的現象並藉以探究該現象所引致的期刊隱性競爭。為國內外資訊計量研究首次應用生態性競爭看法，並獲SSCI-Q1期刊JASIST接受發表。研究結果提出四項生態特性來描述資訊科學與圖書資訊學領域期刊間的隱性競爭：涵蓋度（Coverage）、核心度（ Coreness）、排他性（ Exclusivity）與利基重疊（Niche overlapping）。
+        </div>
+        <p data-toggle="collapse" data-target="#paper3">謝吉隆、沈柏辰、楊立偉（2015）。輔助新聞檢索之視覺化介面實作與使用者評估。圖書資訊學研究，9(2)，149-189。(TSSCI)</p>
+        <div id="paper3" class="collapse">因應現下線上新聞版面充斥著各種依照不同演算法排列的新聞，在社群網頁上，也因為群眾推薦機制的緣故，產生了時間崩塌的現象，但新聞閱讀卻同時重視時間性也重視議題性。在這樣的需求下，本研究提出一套視覺化新聞的輔助瀏覽工具，並企圖結合視覺化介面來提供使用者檢索資訊的記憶線索，便於使用者回溯搜尋過程或篩選搜尋的結果。
+        </div>
+
+    </div>
+
+    <div id="publications2" class="container">
+        <h2>Publications2</h2>
+        <div class="flip">
+            <p>Yu C.Y and Hsieh J.L. (Accepted) Lifelogging: Recording Life Patterns Tied to Daily Internet Usage. To appear in International Handbook of Internet Research (Vol. 2), Springer.</p>
+            <p class="description">該專書章節回顧了心理學早期的經驗取樣方法，乃至於近年因為智慧型手機技術的快速發展，得以建立以行動技術為基礎的經驗取樣方法，除便於取樣外，甚至可根據參與者的生活脈絡與規律進行抽樣。除此之外，本章節並介紹了行動追蹤相關技術，探究自動記錄手機的使用歷程，如何作為分析個人生活規律與社交媒介使用規律的工具。然而，利用手機資料必然涉及隱私與倫理問題，在本章亦利用最後一節說明美國MIT、Harvard與白宮針對資料搜集的隱私與倫理問題所提出的六大綱要，並以本研究的實施過程為例，一一說明本研究如何處理該六大綱要。</p>
+        </div>
+        <div class="flip">
+            <p>余貞誼、謝吉隆（2014）。跟著它一起呼吸─使用社群網站的生活韻律分析。2014年文化研究學會年會。臺北，台灣。</p>
+            <p class="description">本篇論文為應用時間日誌法（Time-Diary method）、視覺化方法以及質性詮釋來探究一對父母的生活脈絡如何影響其手機使用，並探究手機使用又如何反應其生活脈絡中的節奏韻律。除了使用日誌法外，尚擷取Chrome瀏覽器的瀏覽歷史紀錄與日誌資料相互印證。
+            </p>
+        </div>
+        <div class="flip">
+            <p>Hsieh, J. L. (31-Aug-2015 Accepted) Author Publication Preferences and Journal Competition. Journal of the Association for Information Science and Technology. (SSCI, 2013 Rank: 9/84 in Information Science and Library</p>
+            <p class="description">本篇論文以組織生態利基為理論背景，量化作者集中投稿至某些期刊的現象並藉以探究該現象所引致的期刊隱性競爭。為國內外資訊計量研究首次應用生態性競爭看法，並獲SSCI-Q1期刊JASIST接受發表。研究結果提出四項生態特性來描述資訊科學與圖書資訊學領域期刊間的隱性競爭：涵蓋度（Coverage）、核心度（ Coreness）、排他性（ Exclusivity）與利基重疊（Niche overlapping）。
+            </p>
+        </div>
+        <div class="flip">
+
+            <p>謝吉隆、沈柏辰、楊立偉（2015）。輔助新聞檢索之視覺化介面實作與使用者評估。圖書資訊學研究，9(2)，149-189。(TSSCI)</p>
+            <p class="description">因應現下線上新聞版面充斥著各種依照不同演算法排列的新聞，在社群網頁上，也因為群眾推薦機制的緣故，產生了時間崩塌的現象，但新聞閱讀卻同時重視時間性也重視議題性。在這樣的需求下，本研究提出一套視覺化新聞的輔助瀏覽工具，並企圖結合視覺化介面來提供使用者檢索資訊的記憶線索，便於使用者回溯搜尋過程或篩選搜尋的結果。
+            </p>
+        </div>
+
+    </div>
+
+
+    <!--
+    <div class='embed=responsive embed-responsive-16by9'>
+    <video autoplay loop muted poster="screenshot.jpg" id="background">
+        <source src="assets/Snoopy.mp4" type="video/mp4">
+    </video>
+    </div>
+-->
+
+
+
+
+
+    <!-- Gallery 2 -->
+    <div id="gallery2" class="container">
+        <h2>Our activities</h2>
+        <div class="col-md-3 col-sm-4 col-xs-6">
+            <a href="#gallery2" title="big data images"><img class="modalthumb img-responsive" src="https://rapidminer.com/wp-content/uploads/2016/08/data-scientist.jpg" />
+            </a>
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-6">
+            <a href="#gallery2" title="big data images"><img class="modalthumb img-responsive" src="https://rapidminer.com/wp-content/uploads/2016/08/data-scientist.jpg" />
+            </a>
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-6">
+            <a href="#gallery2" title="big data images"><img class="modalthumb img-responsive" src="https://rapidminer.com/wp-content/uploads/2016/08/data-scientist.jpg" />
+            </a>
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-6">
+            <a href="#gallery2" title="big data images"><img class="modalthumb img-responsive" src="https://rapidminer.com/wp-content/uploads/2016/08/data-scientist.jpg" />
+            </a>
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-6">
+            <a href="#gallery2" title="big data images"><img class="modalthumb img-responsive" src="https://rapidminer.com/wp-content/uploads/2016/08/data-scientist.jpg" />
+            </a>
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-6">
+            <a href="#gallery2" title="big data images"><img class="modalthumb img-responsive" src="https://rapidminer.com/wp-content/uploads/2016/08/data-scientist.jpg" />
+            </a>
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-6">
+            <a href="#gallery2" title="Timeline visualization"><img class="modalthumb img-responsive" src="https://news2048.files.wordpress.com/2016/01/89aba-figures-003.jpeg?w=1200&h=&crop=1" /></a>
+        </div>
+
+        <div class="col-md-3 col-sm-4 col-xs-6">
+            <a href="#gallery2" title="unknown"><img class="modalthumb img-responsive" src="http://blog.arborday.org/wp-content/uploads/2013/02/NEC1-300x200.jpg" /></a>
+        </div>
+    </div>
+
+
+
+    <!--Design the type of popup modal-->
+    <div tabindex="-1" class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="close" type="button" data-dismiss="modal">×</button>
+                    <h3 class="modal-title">Heading</h3>
+                </div>
+                <div class="modal-body">
+
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-4">
+
+                <button type="button" class="btn btn-success btn-md" onclick="loadDoc()">Change the above content!</button>
+                <p id="ajaxtest">Original Content</p>
+
+                <button id="btn02" type="button" class="btn btn-success btn-md" onclick="loadJSON()">Click to load json data</button>
+                <p id="jsontest">ORIGINAL TEXT</p>
+
+                <button id="btn03" type="button" class="btn btn-success btn-md">Click to load json data</button>
+                <p id="btn03_result">ORIGINAL TEXT</p>
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <h1>JSON-testing</h1>
+
+
+
+
+
+    <script>
+        function loadDoc() {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if (xhttp.readyState == 4 && xhttp.status == 200) {
+                    document.getElementById("ajaxtest").innerHTML = xhttp.responseText;
+                }
+            };
+            xhttp.open("GET", "assets/toload.txt", true);
+            xhttp.send();
+        }
+
+        function loadJSON() {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if (xhttp.readyState == 4 && xhttp.status == 200) {
+                    var obj = JSON.parse(xhttp.responseText);
+                    var out = "<ul><li>" + obj[1]['SiteName'] + "</li><li>" + obj[1]['UVI'] + "</li><li>" + obj[1]['County'] + "</li></ul>";
+                    document.getElementById("jsontest").innerHTML = out;
+                    document.getElementById("btn02").innerHTML = "JSON data loaded Successfully!!";
+                }
+            };
+            xhttp.open("GET", "assets/uv.json", true);
+            xhttp.send();
+        }
+    </script>
+
+
+
+    <!--FOOTER section-->
+    <footer class="container text-center">
+        <a href="#myPage" title="back to top">
+            <span class="glyphicon glyphicon-triangle-top"></span>
+        </a>
+        <p class="font-effect-3d">back to top</p>
+    </footer>
+</body>
+
+</html>
