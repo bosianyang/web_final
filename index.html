@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head prefix="og: http://ogp.me/ns#">
-    <title>final bo+tzu+hui</title>
+    <title>牠們，「在路上」……</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
@@ -43,15 +43,7 @@
             background-size: cover;
         }
         
-          
-        .slideanimate201 {
-            visibility: hidden;
-        }
-     
-        .slide201 {
-            visibility: visible;
-        }
-  
+       
         .slideanimate21 {
             visibility: hidden;
         }
@@ -241,7 +233,7 @@
 
 <body>
 
-    <!--茲筠修改-->
+   <!--div1動畫:OK-->
     <div id="div1" class="container-fluid innershadow1" style="background-color:black;height:200vh;position:relative;">
         <img id="car" data-top=12 data-left=38 data-width=10 src="assets/car.png" class="dropshadow1" style="position:absolute;width:10%;top:12%;left:38%;filter:grayscale(.2) blur(1px);">
         <img id="crab" data-top=25 data-left=65 data-width=20 src="assets/crab.png" class="dropshadow1" style="position:absolute;width:20%;top:25%;left:65%;">
@@ -254,11 +246,11 @@
     <div id="div11" class="container-fluid" style="background-color:black;height:100vh;position:absolute;">
     </div>
 
-    <!--茲筠修改-->
+
 
     <!--div2引言:OK-->
     <div id="div2" class="container-fluid" style="background-color:black;height:180vh;color: azure">
-        <h1 class="container-fluid slideanimate21">牠們，「在路上」....</h1>
+        <h1 class="container-fluid slideanimate21">牠們，「在路上」……</h1>
 
         <div class="row">
             <div class="col-sm-2.5"></div>
@@ -273,11 +265,12 @@
         </div>
     </div>
 
-    <!--div3焦點物種:soso-->
-    <div id="div3" style="min-height:6000px;width:100%;background-image: url(assets/newspec-front.png);background-repeat: no-repeat;
+    <!--div3焦點物種-->
+  
+    <div id="div3" class="container-fluid" style="height: 5800px;width:100%;background-color: black;background-repeat: no-repeat;
     background-attachment:fixed;background-position:left ;background-size:cover;">
 
-        <img id="spec1" class="slideanimate201" src="assets/newspec-4spe.png" data-speed=0.2 style="position:absolute;height:100vh;transform:translate(100vw);">
+        <img id="spec1"  src="assets/newspec-all.png" data-speed=0.2  border="0" style=" position:absolute;height:100vh;">
     </div>
 
     <!--div4縣市OK-->
@@ -301,7 +294,9 @@
             <!--左邊:文字說明和顏色地圖-->
             <div class="col-sm-6">
                 <p style="text-align: center;color: gray;font-family: Microsoft JhengHei;">顏色越<span style="color:red;">紅</span>者，數字越高；較青色則漸低。</p>
-                <svg width="800px" height="650px" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid"></svg>
+                <img src="/assets/maptaiwain.PNG">
+
+                <!--<svg width="800px" height="650px" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid"></svg>-->
             </div>
             <!--右邊:縣市紀錄排行榜-->
             <div class="col-sm-5">
@@ -568,28 +563,31 @@
             });
         });
 
-        $(document).ready(function() {
+           $(document).ready(function() {
             var winw = $(window).width(),
                 winh = $(window).height();
             var doch = $(document).height() - winh;
             var div3top = $("#div3").offset().top,
                 div4top = $("#div4").offset().top;
+            var div3w=$("#div3").width();
+            var div3h=$("#div3").height();
 
             $(window).scroll(function() {
                 var scrolled = $(window).scrollTop();
 
 
-                if (div3top < scrolled && scrolled < div4top - winh) {
-                    var update_spec1 = (100 - (scrolled - div3top) / $("#div3").height() * 450);
-                    $("#spec1").addClass("animated slide201");
+                if (div3top < scrolled && scrolled < div4top-winh ) {
+                    var update_spec1 = ( - (scrolled - div3top) / div3h * 100);
+                   // $("#spec1").addClass("animated slide201");
 
-                    $("#spec1").css('transform', "translate(" + update_spec1 + "vw)");
+                    $("#spec1").css('transform', "translate(" + update_spec1 + "%)");
 
                     $("#spec1").css('top', scrolled + "px");
                 }
 
             });
         });
+
 
         <!--蕙慈新增-->                
 
